@@ -1,0 +1,59 @@
+
+<html>
+	<script language = "Javascript" src="CheckLogin.js"></script>
+ <head>
+  <title> Banking System Web 2.0 project</title>
+  
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+ </head>
+
+ <body background="2.jpg">
+	 <form>
+	  <h1><center> WELCOME to CVPL Bank </center></h1>
+            <div id="one" style="float:right;">
+                <br />
+                <table title="Login">
+                    <tr>
+                        <td>
+                           <center> <h2> Login </h2> </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label for="username"> Username:- </label>
+                        </td>
+                        <td>
+							<input type="text" name="user" id="user">
+                            <br/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="password"> Password:- </label>
+                        </td>
+                        <td>
+                            <input type="password" name="pwd" id="pwd">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="Button" onclick="authenticate();" value="Login"> 
+                        </td>
+						<td>
+                            <button type="Reset"> Reset </button>
+                        </td>
+                    </tr>
+                </table>
+				<br>
+		Note: Login using Username and Password provided by CVPL Bank.
+				<hr>
+				</br>
+	<input type="text" name="status" id="status" readonly="readonly" size=40% border=0/>
+				</div>
+            </form>
+	</body>
+</html>
